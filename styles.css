@@ -1,3 +1,63 @@
 body {
     font-family: "roboto";
 }
+
+.header {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+}
+
+.logo {
+    display: block;
+    margin-left: 10px;
+}
+
+.links  {
+    list-style: none;
+    list-style-type: none;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-right: 48px;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.title {
+    max-width: 500px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.text {
+    max-width: 700px;
+}
+
+.sign {
+    display: flex;
+    max-width: 100px;
+}
+
+.img {
+    width: 375px;
+    height: 175px;
+    
+    
+}
+
+.hcontent {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
