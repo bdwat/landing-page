@@ -2,14 +2,15 @@ body {
     font-family: "roboto";
 }
 
-.header {
+.h {
     display: flex;
-    height: 500px;
     flex-direction: column;
 }
 
 .hero {
     display: flex;
+    justify-content: space-between;
+    
 }
 
 .logo {
@@ -23,11 +24,11 @@ body {
     color:black;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: flex-end;
     margin-right: 48px;
-    margin-top: 0px;
-    align-items: center;
+    padding: 0;
+    margin-top: 0;
+    flex: auto;
 }
 
 .title {
@@ -46,10 +47,12 @@ body {
 }
 
 .img {
+    display: flex;
+    flex-direction: column;
     width: 375px;
     height: 175px;
-    
-    
+   
+    flex: 1;
 }
 
 .hcontent {
@@ -57,7 +60,3 @@ body {
     flex-direction: column;
 }
 
-.hero {
-    display: flex;
-    justify-content: space-between;
-}
