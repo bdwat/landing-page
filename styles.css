@@ -8,17 +8,13 @@ body {
     margin-bottom: 20px;
     margin-top: 0;
     padding: 0;
-    
-   
-
 }
 
+
 .header {
-    
-    margin-top: 20px;
+    margin-top: 0px;
     display: flex;
     margin-bottom: 75px;
-    
 }
 
 
@@ -28,7 +24,6 @@ body {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .logo {
@@ -49,32 +44,37 @@ body {
 }
 
 .a  {
-    
     list-style: none;
     list-style-type: none;
     color:black;
     margin-right: 48px;
     padding: 0;
     margin-top: 10px;
-    
 }
 
 .title {
     max-width: 500px;
     margin-bottom: auto;
     display: inline-block;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .text {
     display: flex;
     flex-direction: column;
     max-width: 500px;
+    color: #F9FAF8;
+    margin-top: 0;
+    padding: 0;
 }
 
 .button {
     max-width: 100px;
-    margin-bottom: 20px;
-    
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .sign {
@@ -88,18 +88,15 @@ body {
     padding: 20px;
     width: 200px;
     height: 50px; 
-  
+    color: #F9FAF8;
 }
 
 .img {
     display: flex;
-    width: 375px;
-    height: 175px;
-    padding-left: 800px;
+    width: 400px;
+    height: 200px;
     padding: 0;
     margin-top: 0;
-    flex: auto;
-    flex-direction: row;
     justify-content: flex-end;
     align-self: center;
 }
@@ -111,7 +108,6 @@ body {
 
 
 .text ,.logo {
-    
     margin-top: 16px;
 }
 
@@ -130,7 +126,6 @@ body {
 .ndheader {
    text-align: center;
    margin-bottom: 60px;
-
 }
 
 .ndtitle {
@@ -145,8 +140,6 @@ body {
 }
 
 .b1 ,.b2 ,.b3 ,.b4 {
-        
-        
     margin: 16px;
     margin-bottom: 5px;
     border-radius: 25px;
@@ -159,7 +152,6 @@ body {
 .subtext {
     display: flex;
     justify-content: space-around;
-    
 }
 
 .s1 ,.s2 ,.s3 ,.s4 {
@@ -183,14 +175,55 @@ body {
     justify-content: center;
     font-size: 36px;
     flex-wrap: wrap;
-    
+    color: #1F2937;
 }
 
 .thor {
     margin-top: 40px;
     display: flex;
     justify-content: flex-end;
-    
     flex-wrap: nowrap;
-    
+}
+
+.thpart {
+    background-color: #3882f6;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 520px;
+    margin-right: 520px;
+    margin-top: 160px;
+    border: 1px transparent;
+    border-radius: 10px;
+    margin-bottom: 160px;
+}
+
+.ft {
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+    align-items: center;
+}
+
+.signtwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #3882f6;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    width: 200px;
+    height: 50px; 
+    color: #F9FAF8;
+}
+
+.lstpart {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
 }
